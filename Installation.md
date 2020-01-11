@@ -1,12 +1,16 @@
- BIOS:
-In Security, disable Secure Boot.
 
-Install yay to install packages from AUR
+### BIOS:
 
-sudo pacman -S yay
+ In Security, disable Secure Boot.
 
-Install an UI for tlp 
-  yay -S tlpui
+Install yay to install packages from AUR (yaourt is deprecated):
+
+    sudo pacman -S yay
+    
+
+Install Power utils:
+
+    <code> yay -S tlpui powertop </code>
   
 
 Install powertop
