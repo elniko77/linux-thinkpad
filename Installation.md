@@ -31,14 +31,30 @@ Chromium with vaapi (video acceleration) support:
   
 Insync (google drive client):
   yay -S insync insync-nautilus
-  
-Vmware Workstation (last version):
-  yay -S vmware-workstation
-  yay -S vmware-patch  
 
-$ touch /tmp/x
-$ sudo vmware-networks --migrate-network-settings /tmp/x
+### Virtualization
 
-**** networking
-++disable services
+For install vmware workstation must install dkms first
+ yay -S dkms vmware-workstation
+
+Vmware gives an error the first time, because the networking file is missing. You have to create it.
+ $ touch /tmp/x
+ $ sudo vmware-networks --migrate-network-settings /tmp/x
+
+ networking
+disable services
+
+### Fingerprint reader
+
+The x270 and t470 models have the Validity VFS0090 fingerprint reader. It's not supported in the current version of libfprint library, so you must install the patched version:
+
+  yay -S libfprint-vfs0097-git 
+
+### Development
+
+ yay -S code
+
+Vscode plugins: docker, Markdown All in One, powershell, python, remote Containers, remote ssh , remote wsl, remote development
+
+
 
