@@ -59,11 +59,13 @@ Vscode plugins: docker, Markdown All in One, powershell, python, remote Containe
 ### Terminal
 
 Install oh my zsh!
+ 
   `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
   
 Clone my repo for tmux, vim and zsh:
 
-  `git clone https://github.com/elniko77/dotfiles.git`
+ `git clone https://github.com/elniko77/dotfiles.git
+  sh ./dotfiles/bootstrap.sh`
   
   
 
