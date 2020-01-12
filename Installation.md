@@ -64,9 +64,9 @@ Install oh my zsh!
   
 Clone my repo for tmux, vim and zsh:
 
- `git clone https://github.com/elniko77/dotfiles.git
+ `git clone https://github.com/elniko77/dotfiles.git`
  
-  sh ./dotfiles/bootstrap.sh`
+  `sh ./dotfiles/bootstrap.sh`
   
   
 
