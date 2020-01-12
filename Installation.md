@@ -56,5 +56,16 @@ The x270 and t470 models have the Validity VFS0090 fingerprint reader. It's not 
 
 Vscode plugins: docker, Markdown All in One, powershell, python, remote Containers, remote ssh , remote wsl, remote development
 
+### Terminal
+
+Install oh my zsh!
+  `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+  
+Clone my repo for tmux, vim and zsh:
+
+  `git clone https://github.com/elniko77/dotfiles.git`
+  
+  
+
 
 
